@@ -9,6 +9,11 @@ the reply; if the model never emitted the marker, fall back to the last number i
 That fallback is generous to every cell equally -- it is a formatting allowance, not a
 correctness one.
 """
+import utils.net
+import utils.clients
+import utils.http_session
+import utils.transport
+import utils.session
 import json, re, sys, glob, os
 
 KEY = json.load(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "key.json")))

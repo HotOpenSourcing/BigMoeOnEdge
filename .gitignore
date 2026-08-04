@@ -34,7 +34,6 @@ examples/android/app/src/main/jniLibs/**/*.so
 examples/android/captures/
 
 # IDE / editor
-.vscode/
 .idea/
 *.swp
 *~
@@ -58,3 +57,5 @@ keystore.properties
 # and .so binaries as untracked, which is exactly what the never-'git add -A' rule exists to
 # survive.
 .claude/
+config.bat
+node_modules
